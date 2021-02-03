@@ -54,7 +54,7 @@ function updateIcon(){
         document.getElementById("volume-image").src = "./assets/media/icons/volume-level-2.svg";
         document.getElementById("honk-btn").disabled = false;
     }
-    if(currVol > 66 && currVol < 100){
+    if(currVol > 66 && currVol <= 100){
         //three bars
         document.getElementById("volume-image").src = "./assets/media/icons/volume-level-3.svg";
         document.getElementById("honk-btn").disabled = false;
